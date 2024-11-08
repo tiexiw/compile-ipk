@@ -6,15 +6,15 @@ on:
       target:
         description: '目标平台/架构'
         required: true
-        default: 'ramips/mt7621'
+        default: 'rockchip/armv8'
       firmware_version:
         description: '固件版本'
         required: true
-        default: '22.03.5'
+        default: '23.05.5'
       plugin_source:
         description: '插件源码地址'
         required: true
-        default: 'https://github.com/sirpdboy/luci-app-netwizard.git'
+        default: 'https://github.com/Siriling/5G-Modem-Support package meig-cm'
 
 jobs:
   build:
